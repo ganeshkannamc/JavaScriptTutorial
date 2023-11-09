@@ -1,0 +1,36 @@
+/* #name{
+    color: blue;
+} */
+
+.emp-name {
+  color: black !important;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+.yellow {
+  color: yellow;
+}
+
+.background-red {
+  background-color: limegreen;
+}
+
+.emp-name {
+  color: blue;
+}
+
+.btn-click {
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+  border: none;
+  color: white;
+  font-size: large;
+  background-color: blueviolet;
+}
