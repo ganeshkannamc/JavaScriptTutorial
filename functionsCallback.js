@@ -72,23 +72,43 @@
 // let output = addItem(2, 2);
 // finalResultWithMultipy(output, 2);
 
-let arr1 = ["red", "black", "blue"];
-let arr2 = ["ganesh", "kanna", "ram"];
-function customMap(listOfItems, customFunc) {
-  for (let i = 0; i < listOfItems.length; i++) {
-    // console.log(`The values are - ${listOfItems[i]}`);
-    // console.log(`${2} ${listOfItems[i]}`);
-    customFunc(listOfItems[i], i, listOfItems);
-  }
-}
+// let arr1 = ["red", "black", "blue"];
+// let arr2 = ["ganesh", "kanna", "ram"];
+// function customMap(listOfItems, customFunc) {
+//   for (let i = 0; i < listOfItems.length; i++) {
+//     // console.log(`The values are - ${listOfItems[i]}`);
+//     // console.log(`${2} ${listOfItems[i]}`);
+//     customFunc(listOfItems[i], i, listOfItems);
+//   }
+// }
 
-function getItm(itm) {
-  console.log(`The value are ${itm}`);
+// function getItm(itm) {
+//   console.log(`The value are ${itm}`);
   //   console.log(`The value are ${indexCount}`);
   //   console.log(`The value are ${arrItm}`);
-}
+// }
 
-customMap(arr1, (itm,ind,arrit) => console.log(itm,ind,arrit));
+// customMap(arr1, (itm,ind,arrit) => console.log(itm,ind,arrit));
 // customMap(arr2, getItm);
 
 // arr1.map(getItm);
+
+
+// 1. Create a new XMLHttpRequest object
+// let xhr = new XMLHttpRequest();
+
+// 2. Configure it: GET-request for the URL /article/.../load
+// xhr.open('GET', 'https://jsonplaceholder.typicode.com/users');
+
+// 3. Send the request over the network
+// xhr.send();
+
+// 4. This will be called after the response is received
+// xhr.onload = function() {
+//   if (xhr.status != 200) { // analyze HTTP status of the response
+//     console.log(`Error ${xhr.status}: ${xhr.statusText}`); // e.g. 404: Not Found
+//   } else { // show the result
+//     console.log(`Done, got ${xhr.response.length} bytes`); // response is the server response
+//     console.log(xhr.response); // response is the server response
+//   }
+// };
